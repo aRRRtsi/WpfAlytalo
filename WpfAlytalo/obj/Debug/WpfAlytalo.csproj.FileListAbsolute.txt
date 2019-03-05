@@ -1,0 +1,14 @@
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\bin\Debug\WpfAlytalo.exe.config
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\bin\Debug\WpfAlytalo.exe
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\bin\Debug\WpfAlytalo.pdb
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\MainWindow.g.cs
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\App.g.cs
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo_MarkupCompile.cache
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo_MarkupCompile.lref
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\MainWindow.baml
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.g.resources
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.Properties.Resources.resources
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.csproj.GenerateResource.cache
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.csproj.CoreCompileInputs.cache
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.exe
+C:\Users\Ari Leskinen\source\repos\WpfAlytalo\WpfAlytalo\obj\Debug\WpfAlytalo.pdb
