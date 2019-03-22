@@ -11,7 +11,7 @@
 
         <Label x:Name="lblHouseTemperature" Content="House Temperature" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,115,0,0" FontSize="20" FontWeight="Bold"/>
         <Label x:Name="lblSetNewTemperature" Content="Set New Temperature" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="425,115,0,0" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtHouseTemperature" HorizontalAlignment="Left" Height="50" Margin="180,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" Text="20 c" FontSize="24" FontWeight="Bold"/>
+        <TextBox x:Name="txtHouseTemperature" HorizontalAlignment="Left" Height="50" Margin="180,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False" FontSize="24" FontWeight="Bold"/>
         <TextBox x:Name="txtSetNewTemperature" HorizontalAlignment="Left" Height="50" Margin="425,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20"/>
         <Button x:Name="btnSetNewTemperature" Content="SET" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Margin="530,162,0,0" Click="BtnSetNewTemperature_Click" Height="50" FontSize="20"/>
 
@@ -19,18 +19,18 @@
         <Label x:Name="lblLivingRoomLights" Content="Living room lights" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,356,0,0" FontSize="16"/>
         <Label x:Name="lblKitchenLights" Content="Kitchen lights" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,274,0,0" FontSize="16"/>
 
-        <Slider x:Name="sliderKitchenLights" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="18,315,0,0" Maximum="100"/>
-        <TextBox x:Name="txtKitchenLightsValue" Text="{Binding ElementName=sliderKitchenLights, Path=Value, StringFormat=0}" HorizontalAlignment="Left" Height="41" Margin="223,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <Slider x:Name="sliderKitchenLights" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="18,315,0,0" Maximum="100" ValueChanged="SliderKitchenLights_ValueChanged"/>
+        <TextBox x:Name="txtKitchenLightsValue" HorizontalAlignment="Left" Height="41" Margin="223,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
 
-        <Slider x:Name="sliderLivingRoomLights" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="18,397,0,0" Maximum="100"/>
-        <TextBox x:Name="txtLivingRoomLightsValue" Text="{Binding Value, ElementName=sliderLivingRoomLights, StringFormat=0}" HorizontalAlignment="Left" Height="41" Margin="223,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <Slider x:Name="sliderLivingRoomLights" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="18,397,0,0" Maximum="100" ValueChanged="SliderLivingRoomLights_ValueChanged"/>
+        <TextBox x:Name="txtLivingRoomLightsValue" HorizontalAlignment="Left" Height="41" Margin="223,386,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" IsEnabled="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Bold"/>
 
         <Label x:Name="lblSauna" Content="Sauna" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="468,299,0,0"/>
         <Label x:Name="lblSetSaunaTemperature" Content="Set Sauna Temperature" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="587,299,0,0"/>
         <TextBox x:Name="txtSaunaTemperature" HorizontalAlignment="Left" Height="50" Margin="471,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsEnabled="False"/>
         <TextBox x:Name="txtSetSaunaTemperature" HorizontalAlignment="Left" Height="27" Margin="587,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button x:Name="btnSetSaunaTemperature" Content="SET" HorizontalAlignment="Left" VerticalAlignment="Top" Width="77" Margin="587,355,0,0"/>
-        <Button x:Name="btnSetSaunaOff" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="669,355,0,0"/>
+        <Button x:Name="btnSetSaunaTemperature" Content="SET" HorizontalAlignment="Left" VerticalAlignment="Top" Width="77" Margin="587,355,0,0" Click="BtnSetSaunaTemperature_Click"/>
+        <Button x:Name="btnSetSaunaOff" Content="OFF" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="669,355,0,0" Click="BtnSetSaunaOff_Click"/>
 
 
     </Grid>

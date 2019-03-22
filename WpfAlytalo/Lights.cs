@@ -8,7 +8,8 @@ namespace WpfAlytalo
 {
     public class Lights
     {
-        public string LightsDimmer { get; set; }
+        public string KitchenLightsDimmer { get; set; }
+        public string LivingRoomLightsDimmer { get; set; }
 
         public Boolean LightsSwitched { get; set; }
         public void LightsOn()
